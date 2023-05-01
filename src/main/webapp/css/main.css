@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  background-color: #3399ff;
+  color: #ffffff;
+}
+
+tr:nth-child(even) {
+  background-color: #e6f2ff;
+}
+
+.oikealle{
+  text-align: right;
+}
+
+.poista{
+	color: red;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#linkki{
+  color: #ffffff;
+  text-decoration: none;  
+}
